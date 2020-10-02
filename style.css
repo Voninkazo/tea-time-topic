@@ -83,6 +83,11 @@ div>ul li:nth-of-type(2) button {
     margin-left: 1rem;
 }
 
+li.specific {
+    display: flex;
+    flex-direction: column;
+}
+
 div.lists {
     background-color: #ffffff;
     border-radius: .5rem;
