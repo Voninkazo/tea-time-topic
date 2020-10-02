@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0;
-    background-color: #cccc;
+    background-color: #E5E5E5;
 }
 
 h2 {
@@ -42,6 +42,11 @@ button {
     font-size: 16px;
 }
 
+ul {
+    padding: 0;
+    list-style: none;
+}
+
 form button {
     padding-left: 2rem;
     padding-top: 1rem;
@@ -54,4 +59,35 @@ form button {
     font-weight: bold;
     cursor: pointer;
     margin-left: 1rem;
+}
+
+.dislike,
+.like {
+    background-color: none;
+    border: none;
+}
+
+div>ul li:nth-of-type(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div>ul li:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+}
+
+div>ul li:nth-of-type(2) button {
+    margin-left: 1rem;
+}
+
+div.lists {
+    background-color: #ffffff;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.next-topic-container div {
+    margin-top: 1rem;
 }
