@@ -1,0 +1,57 @@
+html {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+    background-color: #cccc;
+}
+
+h2 {
+    text-align: center;
+}
+
+div {
+    padding-left: 100px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+input {
+    padding-top: 1rem;
+    border-radius: .5rem;
+    padding-bottom: 1rem;
+    padding-right: 5rem;
+}
+
+::placeholder,
+button {
+    font-size: 16px;
+}
+
+form button {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1rem;
+}
