@@ -89,6 +89,7 @@ div.lists {
     padding: 1rem;
 }
 
-.next-topic-container div {
+.next-topic-container div,
+.discussed-topic-container div {
     margin-top: 1rem;
 }
